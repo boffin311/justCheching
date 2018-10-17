@@ -1,0 +1,79 @@
+
+OVERVIEW
+
+This chapter deals with linking pair of elements from two sets and then introduce relations between
+the two elements in the pair. Practically in every day of our lives, we pair the members of two sets of
+numbers. For example, each hour of the day is paired with the local temperature reading by T.V.
+Station&#39;s weatherman, a teacher often pairs each set of score with the number of students receiving
+that score to see more clearly how well the class has understood the lesson. Finally, we shall learn
+about special relations called functions.
+        
+
+DEFINITION
+
+Given two non-empty sets A and B, the set of all ordered pairs (x, y), where x ∈ A and y ∈ B is called
+Cartesian product of A and B;
+symbolically, we write A × B = {(x, y) | x ∈ A and y ∈ B} If A = {1, 2, 3} and B = {4, 5}, then A × B = {(1,
+4), (2, 4), (3, 4), (1, 5), (2, 5), (3, 5)} and B × A = {(4, 1), (4, 2), (4, 3), (5, 1), (5, 2), (5, 3)}
+(i) Two ordered pairs are equal, if and only if the corresponding first elements are equal
+and the second elements are also equal, i.e. (x, y) = (u, v) if and only if x = u, y = v.
+(ii) If n(A) = p and n (B) = q, then n (A × B) = p × q.
+(iii) A × A × A = {(a, b, c) : a, b, c ∈ A}. Here (a, b, c) is called an ordered triplet.
+
+RELATION
+
+A Relation R from a non-empty set A to a non empty set B is a subset of the Cartesian product set A
+× B. The subset is derived by describing a relationship between the first element and the second
+element of the ordered pairs in A × B. The set of all first elements in a relation R, is called the domain
+of the relation R, and the set of all second elements called images, is called the range of R. For
+example, the set R = {(1, 2), (– 2, 3), ( 1 2 , 3)} is a relation; the domain of R = {1, – 2, 1 2 } and the
+range of R = {2, 3}.
+(i) A relation may be represented either by the Roster form or by the set builder form, or
+by an arrow diagram which is a visual representation of a relation.
+(ii) If n (A) = p, n (B) = q; then the n (A × B) = pq and the total number of possible relations
+from the set A to set B = 2pq .
+
+
+TYPE OF RELATIONS
+
+
+1. Void Relation (Empty Relation): 
+A relation R in a set A is called Void relation or Empty relation, if no element of set A is related to
+any element of A.
+
+Hence R = ɸ which is a subset of A x A. 
+For example: 
+Let A = {1, 2, 5, 8}, then 
+R = {(x, y), x, y  A, x � y = 7} is an example of void relation in A, since no ordered pair (x, y) 
+ A x A satisfies x � y = 8.
+
+2. Identity Relation: 
+For a given set A, I = {(a, a), a  A} is called the Identity relation in A. In identity relation every
+element of A is related to itself only.
+
+For example: 
+If A = {2, 3 ,4} then I = {(2, 2), (3, 3), (4, 4)} is the identity relation in A.
+
+3. Symmetric Relation: 
+A relation R in a set A is said to be Symmetric if and only if aRb    L    bRa for all a, b  A.
+For example: 
+The relation &quot;is equal to&quot; is a symmetric relation for if a = b then b = a. 
+4. Transitive Relation: 
+A relation in a set A is called Transitive if and only if, (a, b)  R and (b, c)  R then (a, c)  R for all
+a, b, c  A.
+
+For example: 
+The relation &quot;is greater than&quot; is a transitive relation, if a &gt; b and b &gt; c, then a &gt; c. 
+
+5. Reflexive Relation: 
+A relation R in a set A is said to be Reflexive if and only if aRa, for all a  A. It means, every element
+of A is related to itself.
+
+For example: 
+Let A = {3, 4, 5} and R = {(a, a) : a  A} 
+Hence, R = {(3, 3), (4, 4), (5, 5)} which is a reflexive relation. 
+6. Equivalence Relation: 
+A relation R in a set A is called an Equivalence relation if and only if
+
+1. it is Reflexive that is, (a, a)  R for all a  A.
+2. it is Symmetric that is, (a, b)  R   L   (b, a)  R for all a, b  A.
